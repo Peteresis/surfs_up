@@ -72,16 +72,24 @@ Below is the histogram chart for the temperatures during the month of June.  It 
 ### Image 6: Histogram of the temperatures during June
 ![Image6](https://github.com/Peteresis/surfs_up/blob/647c4d44e22fe35f2af82c42da98a43557f14428/Images/JuneTemps.png)
 
-In the same fashion, the histogram for December is presented below.  The graph shows that normally the temperature in December varies between `66 F` and `76 F`, but there are a lot of das in December where the temperature stays around `72 F`.  Days of extreme temperatures in December are not very frequent when compared against the central block in the graph
+In the same manner, the December histogram is shown below. The graph shows that the temperature in December usually ranges between `66 F` and `76 F`, but there are many days in December when the temperature stays around `72 F`. Extreme temperature days are uncommon in December when compared to the central block of the graph. The data looks slightly skewed to the right, but not nearly as much as in the June graph.
 
 ### Image 7: Histogram of the temperatures during December
 ![Image7](https://github.com/Peteresis/surfs_up/blob/647c4d44e22fe35f2af82c42da98a43557f14428/Images/DecemberTemps.png)
 
+To conclude the section on histograms, we show the histograms for June and December superimposed below. This chart illustrates that the June data is significantly skewed to the right than the December data. Most of the temperatures recorded in those two months are between `66 F` and `77 F`, indicating that the temperature does not appear to be a barrier to tourists visiting Oahu.
+
+### Image 8: Histogram of the temperatures during June and December superimposed
+![Image8](https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/JuneAndDecemberTemps.png)
 
 
 
 ### 2. A boxplot to check for possible outliers
 
+As a final check, we will present a Boxplot (Box-and-Whisker Plot) for the temperature in June and December.  This type of chart is useful to confirm data sekewness and capture outlier data points.</br>
+
+### Image 9: Box-and-Whisker Plot of the temperatures during June and December
+![Image9](https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/boxplot.png)
 
 
 
