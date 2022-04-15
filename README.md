@@ -142,7 +142,7 @@ After running the code, we obtain the following:
 As we can see, even though the Boxplot for December seemed to suggest that there were a lot of outliers datapoints for that month, the count of such points reveal that it was not the case, and so the temperature readings in December are pretty consistent year after year.  As a contrast, the Boxplot for June shows few outliers, but once we count them, we see that almost 20% of the points are outliers, and so it confirms the suspicion that the month of June tends to be hotter than what the `.describe()` function suggest.
 
 ## In conclusion:
-After carefully reviewing the data, we can be confident that summers in Oahu have a pleasant temperature and during winter the climate is a bit colder, but not enough to make going to the beach an unpleasant experience.
+After carefully reviewing the data, we can confidently state that summers on Oahu are nice, and winters are slightly cooler, but not cold enough to make going to the beach unpleasant.
 
 ## **<u>None of the above suggest that the temperature differences between June and December will be a reason for tourists not coming to Oahu, so the Surf 'N Shake project has passed the initial evaluation.</u>**
 
