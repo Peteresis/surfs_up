@@ -13,7 +13,7 @@ Mr. W. Avy wants to know if the temperature will be high enough during those two
 ## :two: Results
 The SQLite database recieved from W. Avy contains two tables: `measurement` and `station`.  The `measurement` table has `19550 records`, which were filtered using code to focus only on the records from the months of June and December of each year.  The table `station` contains only `9 records`, corresponding to the data of the weather stations located in the Hawaiian archipielago.
 
-Code for extracting the temperatures for the month of June.
+[The complete code used for this analysis can be found here](https://github.com/Peteresis/surfs_up/blob/fc143a1f75806a3382e69c544bd214478e9deb1a/SurfsUp_Challenge.ipynb).  Below is a snippet of the code used for extracting the temperatures for the month of June.
 
 ```
 # 1. Import the sqlalchemy extract function.
