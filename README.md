@@ -54,7 +54,11 @@ The data for June has 1700 entries or lines.  The mean temperature for June in O
 Using the same procedure described above, the data for December has 1517 data points.  The mean temperature for December in Oahu is `71.04 F`.  The minimum temmperature registred durung the period is `56 F` and the maximum is `83 F`.  In this case the difference between the two extremes is 27.
 
 ### Image 4: Statistical description of the DataFrame with the temperatures for the month of December
-![Image3](https://github.com/Peteresis/surfs_up/blob/de270105093c5f8a8c2fb4b435956b02abf0a4af/Images/december_describe_df.png)
+![Image4](https://github.com/Peteresis/surfs_up/blob/de270105093c5f8a8c2fb4b435956b02abf0a4af/Images/december_describe_df.png)
+
+
+### Image 5: Comparison of the statistical description of the DataFrame with the temperatures for the months of June and December
+![Image5](https://github.com/Peteresis/surfs_up/blob/5567f9e7380d7cf38a239f0a2a7d1cc5bdfab0fb/Images/summary_describe_df.png)
 
 
 ## :three: Summary
