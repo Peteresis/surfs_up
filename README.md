@@ -90,14 +90,52 @@ As a final check, we'll show a Boxplot (Box-and-Whisker Plot) for the June and D
 
 Once more, the box for June confirms that the data is skewed to the right. The box for December, on the other hand, appears to indicate that the data for that month is skewed to the left, contrary to what the histogram suggested. This means that the month of June is usually hotter than the average temperature calculation indicates. In December, there appears to be a slight prevalence of 'cold' days.
 
-En relación con los outliers, el gráfico muestra que para el mes de Junio no hay datos outliers que superen el límite superior del gráfico.  En cambio, para el límite inferior apenas se ven un par de puntos.  
+Concerning outliers, the graph shows that there is no outlier data that exceeds the chart's upper limit for June. On the other hand, only a few points are at the lower limit.
 
-Para el mes de Diciembre la situación es diferente.  Tenemos un par de puntos que exceden el límite superior y una gran cantidad de puntos que caen por debajo del límite inferior.
+The situation is different in December. We have a few points that exceed the upper limit and many points that fall below the lower limit.
 
-Hay que hacer notar que existe una limitación de los gráficos tipo boxplot.  Los puntos que se observan en este tipo de gráficos son sólo una representación de los datos y la situación real puede ser diferente a lo que se observa.  Es decir, aunque el gráfico muestre sólo dos puntos como outliers, no quiere decor que en la data hayan solo dos puntos.  Puede ser que en la data hayan muchos puntos outliers, pero que estén muy cerca unos de otros y por lo tanto lucen en el boxplot como un solo punto.
+We should note that boxplots have a limitation. The points shown in boxplots only try to represent the data, and the actual situation may differ from what is shown. Just because the graph shows only two points as outliers do not imply that the data contains only two points. There may be many outlier points in the data, but they are so close together that they appear as one point on the boxplot.
 
-### Image 9: Box-and-Whisker Plot of the temperatures during June and December
-![Image9](https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/boxplot.png)
+To be certain of the number of outlier points each month, we need to count how many data points are outliers and their weight in relation to the total sample data.
+
+A brief review of the values that make up a boxplot helps to better understand what we are trying to describe:
+
+### Image 9: Different parts of a Boxplot
+![image](https://user-images.githubusercontent.com/98360572/163650058-f78ad8f8-88b5-4094-9f39-9a6fd137a8d6.png)
+
+Using the `.describe()` function for June and December we obtained the following data:</br>
+`Q1 for June = 75`</br>
+`Q3 for June = 77`
+
+`Q1 for December = 69`</br>
+`Q3 for December = 74`
+
+The following snippet of code shows how the number of outliers was calculated for June</br>
+```
+# Counting the number of outliers for June
+
+# Calculating the Inter Quartile Range (IQR) and Whiskers values for June and December
+
+Q1_June = 75
+Q3_June = 77
+IQR_June = Q3_June - Q1_June # (3rd Quartile - 1st Quartile)
+
+# Value of the upper Whisker for June
+Upper_Bound_June = Q3_June + 1.5*IQR_June
+
+# Value of the lower Whisker for June
+Lower_Bound_June = Q1_June - 1.5*IQR_June
+
+
+# For June 
+low_outliers_june = june_df[june_df['June Temps'] < Lower_Bound_June]
+high_outliers_june = june_df[june_df['June Temps'] > Upper_Bound_June]
+```
+
+
+
+### Image 10: Box-and-Whisker Plot of the temperatures during June and December
+![Image10](https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/boxplot.png)
 
 
 
