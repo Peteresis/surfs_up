@@ -42,15 +42,23 @@ print(december_results)
 
 Once the temperature information for the months of June and December was filtered, the Pandas function `describe()` was used to calculate the main statistical parameters of the June and December data.
 
-## :warning: Deliverable #1 The statistical description for June is shown below.  
+## 💠 Deliverable #1 The statistical description for June is shown below.  
 
-
+The data for June has 1700 entries or lines.  The mean temperature for June in Oahu is `74.9 F`, but it can go as low as `64 F` and as high as `85 F`, so there is a 20 degree range variation in the historical data.
 
 ### Image 3: Statistical description of the DataFrame with the temperatures for the month of June
-![Image3](https://github.com/Peteresis/surfs_up/blob/ea18f34bd02efcaa024271d20cab76f4b535b44e/Images/june_describe_df.png)
+![Image3](https://github.com/Peteresis/surfs_up/blob/de270105093c5f8a8c2fb4b435956b02abf0a4af/Images/june_describe_df.png)
+
+## 💠 Deliverable #2 The statistical description for December is shown below.  
+
+Using the same procedure described above, the data for December has 1517 data points.  The mean temperature for December in Oahu is `71.04 F`.  The minimum temmperature registred durung the period is `56 F` and the maximum is `83 F`.  In this case the difference between the two extremes is 27.
+
+### Image 4: Statistical description of the DataFrame with the temperatures for the month of December
+![Image3](https://github.com/Peteresis/surfs_up/blob/de270105093c5f8a8c2fb4b435956b02abf0a4af/Images/december_describe_df.png)
 
 
 ## :three: Summary
+
 
 
 ## References
