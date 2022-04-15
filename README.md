@@ -63,6 +63,26 @@ Using the same procedure described above, the data for December has 1517 data po
 
 ## :three: Summary
 
+At first sight, and based on the mean temperature data, it looks like the island of Oahu is a perfect place to visit as a tourist.  The mean temperature in summer (June) is about `75 F` and during winter (December) it drops to `71 F`.  That is about the same temperature that most air conditioning units keep inside a house, so the conditions look favorable for the business.  However, before jumping into conclusions it is advisable to take a closer look at the data, so two additional queries were done:
+
+### 1. A histogram plot to visualize if the data is skewed
+
+Below is the histogram chart for the temperatures during the month of June.  It looks like the data is skewed to the right and for the most part the temperature during June oscillates between `71 F` and `79 F`.  From the graph, the frequency of days with extreme temperatures (either cold or hot) during June seems low, so June should not be a problem for the Surf 'n Shake business.
+
+### Image 6: Histogram of the temperatures during June
+![Image6](https://github.com/Peteresis/surfs_up/blob/647c4d44e22fe35f2af82c42da98a43557f14428/Images/JuneTemps.png)
+
+In the same fashion, the histogram for December is presented below.
+
+### Image 7: Histogram of the temperatures during December
+![Image7](https://github.com/Peteresis/surfs_up/blob/647c4d44e22fe35f2af82c42da98a43557f14428/Images/DecemberTemps.png)
+
+
+
+
+### 2. A boxplot to check for possible outliers
+
+
 
 
 ## References
