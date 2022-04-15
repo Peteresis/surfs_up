@@ -113,24 +113,31 @@ Using the `.describe()` function for June and December we obtained the following
 The following snippet of code shows how the number of outliers was calculated for June</br>
 ```
 # Counting the number of outliers for June
-
 # Calculating the Inter Quartile Range (IQR) and Whiskers values for June and December
-
 Q1_June = 75
 Q3_June = 77
 IQR_June = Q3_June - Q1_June # (3rd Quartile - 1st Quartile)
 
 # Value of the upper Whisker for June
 Upper_Bound_June = Q3_June + 1.5*IQR_June
-
 # Value of the lower Whisker for June
 Lower_Bound_June = Q1_June - 1.5*IQR_June
-
 
 # For June 
 low_outliers_june = june_df[june_df['June Temps'] < Lower_Bound_June]
 high_outliers_june = june_df[june_df['June Temps'] > Upper_Bound_June]
 ```
+</br>The code for the month of December is nearly identical, so it is not worth including it here.
+
+After running the code, we obtain the following:
+
+`Total datapoints for June 1700`</br>
+`Count of Low Outliers in June = 268 or 268/1700 = 15.8% of the data`  Again, the skewness is identified</br>
+`Count of High Outliers in June = 44 or 44/1700 = 2.6% of the data`
+
+`Total datapoints for December 1517`</br>
+`Count of Low Outliers in December = 15 or 15/1517 = 15.8% of the data`  Again, the skewness is identified</br>
+`Count of High Outliers in December = 2 or 2/1517 = 2.6% of the data`
 
 
 
