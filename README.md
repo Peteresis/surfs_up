@@ -38,9 +38,14 @@ print(december_results)
 ![Image1](https://github.com/Peteresis/surfs_up/blob/c32152ab66cde0777dfb59be65ecb207b0d494c4/Images/measurementtable.png)
 
 ### Image 2: Screenshot of the `station` table
-![Image1](https://github.com/Peteresis/surfs_up/blob/c32152ab66cde0777dfb59be65ecb207b0d494c4/Images/satationtable.png)
+![Image2](https://github.com/Peteresis/surfs_up/blob/c32152ab66cde0777dfb59be65ecb207b0d494c4/Images/satationtable.png)
 
-Once the temperature information for the months of June and December was filtered, using 
+Once the temperature information for the months of June and December was filtered, the Pandas function `describe()` was used to calculate the main statistical parameters of the June and December data.
+
+## :warning: Deliverable #1 The statistical description for June is shown below.   
+
+### Image 3: Statistical descriptio of the DataFrame with the temperatures for the month of June
+![Image3](https://github.com/Peteresis/surfs_up/blob/c32152ab66cde0777dfb59be65ecb207b0d494c4/Images/satationtable.png)
 
 
 ## :three: Summary
