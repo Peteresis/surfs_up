@@ -86,9 +86,15 @@ To conclude the section on histograms, we show the histograms for June and Decem
 
 ### 2. A boxplot to check for possible outliers
 
-As a final check, we will present a Boxplot (Box-and-Whisker Plot) for the temperature readings in June and December.  This type of chart is useful to confirm data sekewness and capture outlier data points.</br>
+As a final check, we'll show a Boxplot (Box-and-Whisker Plot) for the June and December temperature readings. This type of chart is useful for confirming data consistency and identifying outlier data points. </br>
 
-The box for June once more confirms tha the data is skewed to the right.  However, the box for December seems to indicate that the data for that month is skewed to left.  This means that the month of June tends to be hotter than what the average temperature calculation suggests.  In the case of December,  there seems to be a slight prevalence of 'cold' days.
+Once more, the box for June confirms that the data is skewed to the right. The box for December, on the other hand, appears to indicate that the data for that month is skewed to the left, contrary to what the histogram suggested. This means that the month of June is usually hotter than the average temperature calculation indicates. In December, there appears to be a slight prevalence of 'cold' days.
+
+En relación con los outliers, el gráfico muestra que para el mes de Junio no hay datos outliers que superen el límite superior del gráfico.  En cambio, para el límite inferior apenas se ven un par de puntos.  
+
+Para el mes de Diciembre la situación es diferente.  Tenemos un par de puntos que exceden el límite superior y una gran cantidad de puntos que caen por debajo del límite inferior.
+
+Hay que hacer notar que existe una limitación de los gráficos tipo boxplot.  Los puntos que se observan en este tipo de gráficos son sólo una representación de los datos y la situación real puede ser diferente a lo que se observa.  Es decir, aunque el gráfico muestre sólo dos puntos como outliers, no quiere decor que en la data hayan solo dos puntos.  Puede ser que en la data hayan muchos puntos outliers, pero que estén muy cerca unos de otros y por lo tanto lucen en el boxplot como un solo punto.
 
 ### Image 9: Box-and-Whisker Plot of the temperatures during June and December
 ![Image9](https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/boxplot.png)
