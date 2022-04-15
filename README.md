@@ -90,7 +90,7 @@ As a final check, we will show a Boxplot (Box-and-Whisker Plot) for the June and
 
 [Image 9](https://github.com/Peteresis/surfs_up/blob/main/README.md#image-9-different-parts-of-a-boxplot) below confirms that the data for June is skewed to the right. The box for December, on the other hand, appears to indicate that the data for that month is skewed to the left, contrary to what the histogram suggested. This means that the month of June is frequently hotter than the average temperature calculation indicates. In December, there appears to be a slight prevalence of 'cold' days.
 
-Concerning outliers, the graph shows that there is no outlier data that exceeds the chart's upper limit for June. On the other hand, only a few points are at the lower limit.
+Concerning outliers, the graph shows that there is no outlier data that exceeds the chart's upper limit for June and only a few points are at the lower limit.
 
 The situation is different in December. We have a few points that exceed the upper limit and many points that fall below the lower limit.
 
