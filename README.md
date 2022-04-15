@@ -1,18 +1,21 @@
-# surfs_up
+# :surfer: surfs_up
 Module 9 - SQLite &amp; SQLAlchemy &amp; Flask</br>
 </br>
 Describe the key differences in weather between June and December for the island of Oahu and make two recommendations for further analysis.
 
-## Overview
-The objective of this analysis is to study temperature variations on the island of Oahu, Hawaii, United States, in order to determine the feasibility of success of a business that combines the sale of surfing products with the sale of milkshakes and ice cream. The store will be called Surf 'n Shake. The information will be used to convince local investors to partner in the creation of this business.
+## :one: Overview
+The goal of this analysis is to investigate temperature variations on the Hawaiian island of Oahu in order to determine the viability of a business that combines the sale of surfing products with the sale of milkshakes and ice cream. Surf 'n Shake will be the name of the store. The data will be used to persuade local investors to join forces in the creation of this business.
 
-The lead investor, Mr. W. Avy, provided us with a flat database in sqlite format, containing temperature data recorded by several weather observation stations located at different points in the Hawaiian Islands during a period from 2010 to 2017. After a meeting with Mr. W. Avy, it was decided to focus the analysis on the months of June and December and limit it to the island of Oahu, which was set as the starting point for a possible Surf 'n Shake business chain.
+Mr. W. Avy, the lead investor, provided us with a flat database in sqlite format containing temperature data recorded by several weather observation stations located at various points throughout the Hawaiian Islands from 2010 to 2017. Following a meeting with Mr. W. Avy, it was decided to limit the analysis to the months of June and December and to the island of Oahu as the starting point for a potential Surf 'n Shake business chain.
 
-Mr. W. Avy wants to know if the temperature during those two months will be high enough to keep the flow of tourists high and the business more likely to be profitable.
+Mr. W. Avy wants to know if the temperature will be high enough during those two months to keep the flow of tourists strong and the business profitable.  In theory, if the temperature makes Oahu attractive for tourists during the hottest month (June) and the coldest month (December), there should be enough customers to make the business profitable throughout the year.
 
-## Results
+## :two: Results
+The SQLite database recieved from W. Avy contains two tables: `measurement` and `station`.  The `measurement` table has 
 
-## Summary
+
+
+## :three: Summary
 
 
 ## References
