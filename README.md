@@ -72,7 +72,7 @@ Below is the histogram chart for the temperatures during the month of June.  It 
 ### Image 6: Histogram of the temperatures during June
 ![Image6](https://github.com/Peteresis/surfs_up/blob/647c4d44e22fe35f2af82c42da98a43557f14428/Images/JuneTemps.png)
 
-In the same fashion, the histogram for December is presented below.
+In the same fashion, the histogram for December is presented below.  The graph shows that normally the temperature in December varies between `66 F` and `76 F`, but there are a lot of das in December where the temperature stays around `72 F`.  Days of extreme temperatures in December are not very frequent when compared against the central block in the graph
 
 ### Image 7: Histogram of the temperatures during December
 ![Image7](https://github.com/Peteresis/surfs_up/blob/647c4d44e22fe35f2af82c42da98a43557f14428/Images/DecemberTemps.png)
