@@ -4,11 +4,11 @@ Module 9 - SQLite &amp; SQLAlchemy &amp; Flask</br>
 Describe the key differences in weather between June and December for the island of Oahu and make two recommendations for further analysis.
 
 ## Overview
-El objetivo de este análisis es estudiar las variaciones de temperatura en la isla de Oahu, Hawaii, Estados Unidos, con la finalidad de determinar la factibilidad de éxito de un negocio que combine la venta venta de productos para practicar el surf con la venta de malteadas y helados.  La tienda se llamará Surf 'n Shake.  La información servirá para convencer a inversionistas locales de asociarse en la creación de este negocio.
+The objective of this analysis is to study temperature variations on the island of Oahu, Hawaii, United States, in order to determine the feasibility of success of a business that combines the sale of surfing products with the sale of milkshakes and ice cream. The store will be called Surf 'n Shake. The information will be used to convince local investors to partner in the creation of this business.
 
-El inversionista principal, Sr. W. Avy, nos entregó una base de datos plana en formato sqlite, que contiene los datos de temperatura registrados por varias estaciones de observacion meteorológicas ubicadas en diferentes puntos de las islas Hawaianas durante un periodo que va del año 2010 al 2017.  Luego de una reunión con el Sr. W. Avy, se decidió enfocar el analisis en los meses de Junio y Diciembre y limitarlo a la isla de Oahu, la cual se fijó como el punto de partida para una posible cadena de negocios Surf 'n Shake.
+The lead investor, Mr. W. Avy, provided us with a flat database in sqlite format, containing temperature data recorded by several weather observation stations located at different points in the Hawaiian Islands during a period from 2010 to 2017. After a meeting with Mr. W. Avy, it was decided to focus the analysis on the months of June and December and limit it to the island of Oahu, which was set as the starting point for a possible Surf 'n Shake business chain.
 
-El Sr. W. Avy quiere saber si la temperatura durante esos dos meses estará lo suficientemente elevada como para que el flujo de turistas se mantenga alto y el negocio tenga mas posibilidades de ser rentable.
+Mr. W. Avy wants to know if the temperature during those two months will be high enough to keep the flow of tourists high and the business more likely to be profitable.
 
 ## Results
 
