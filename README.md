@@ -42,10 +42,12 @@ print(december_results)
 
 Once the temperature information for the months of June and December was filtered, the Pandas function `describe()` was used to calculate the main statistical parameters of the June and December data.
 
-## :warning: Deliverable #1 The statistical description for June is shown below.   
+## :warning: Deliverable #1 The statistical description for June is shown below.  
 
-### Image 3: Statistical descriptio of the DataFrame with the temperatures for the month of June
-![Image3](https://github.com/Peteresis/surfs_up/blob/c32152ab66cde0777dfb59be65ecb207b0d494c4/Images/satationtable.png)
+
+
+### Image 3: Statistical description of the DataFrame with the temperatures for the month of June
+![Image3](https://github.com/Peteresis/surfs_up/blob/ea18f34bd02efcaa024271d20cab76f4b535b44e/Images/june_describe_df.png)
 
 
 ## :three: Summary
@@ -60,3 +62,4 @@ Save a Pandas dataFrame As An Image, https://predictivehacks.com/?all-tips=save-
 
 Display df.describe() Output In A Dataframe, https://support.sisense.com/kb/en/article/display-dfdescribe-output-in-a-dataframe
 
+Understanding Boxplots, https://towardsdatascience.com/understanding-boxplots-5e2df7bcbd51
