@@ -58,7 +58,7 @@ Using the same procedure described above, the data for December has 1517 data po
 
 
 ### Image 5: Comparison of the statistical description of the DataFrame with the temperatures for the months of June and December
-![Image5](https://github.com/Peteresis/surfs_up/blob/5567f9e7380d7cf38a239f0a2a7d1cc5bdfab0fb/Images/summary_describe_df.png)
+![Image5](https://github.com/Peteresis/surfs_up/blob/f6b18997809eb80eac2ff29adb11110833181cf2/Images/summary_describe_df.png)
 
 
 ## :three: Summary
