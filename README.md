@@ -132,7 +132,7 @@ high_outliers_june = june_df[june_df['June Temps'] > Upper_Bound_June]
 After running the code, we obtain the following:
 
 `Total datapoints for June 1700`</br>
-`Count of Low Outliers in June = 268 or 268/1700 = 15.8% of the data`  16% is a high value, so the right skewness is confirmed</br>
+`Count of Low Outliers in June = 268 or 268/1700 = 15.8% of the data`  16% is a high value, so the right skewness is confirmed...again</br>
 `Count of High Outliers in June = 44 or 44/1700 = 2.6% of the data`
 
 `Total datapoints for December 1517`</br>
