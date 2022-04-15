@@ -8,7 +8,7 @@ El objetivo de este análisis es estudiar las variaciones de temperatura en la i
 
 El inversionista principal, Sr. W. Avy, nos entregó una base de datos plana en formato sqlite, que contiene los datos de temperatura registrados por varias estaciones de observacion meteorológicas ubicadas en diferentes puntos de las islas Hawaianas durante un periodo que va del año 2010 al 2017.  Luego de una reunión con el Sr. W. Avy, se decidió enfocar el analisis en los meses de Junio y Diciembre y limitarlo a la isla de Oahu, la cual se fijó como el punto de partida para una posible cadena de negocios Surf 'n Shake.
 
-El Sr. W. Avy quiere saber si la temperatura durante esos dos meses estará lo suficientemente elveda como para que el flujo de turistas se mantenga elevado y el negocio tenga mas posibilidades de ser rentable.
+El Sr. W. Avy quiere saber si la temperatura durante esos dos meses estará lo suficientemente elevada como para que el flujo de turistas se mantenga alto y el negocio tenga mas posibilidades de ser rentable.
 
 ## Results
 
