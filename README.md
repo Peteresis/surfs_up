@@ -86,7 +86,9 @@ To conclude the section on histograms, we show the histograms for June and Decem
 
 ### 2. A boxplot to check for possible outliers
 
-As a final check, we will present a Boxplot (Box-and-Whisker Plot) for the temperature in June and December.  This type of chart is useful to confirm data sekewness and capture outlier data points.</br>
+As a final check, we will present a Boxplot (Box-and-Whisker Plot) for the temperature readings in June and December.  This type of chart is useful to confirm data sekewness and capture outlier data points.</br>
+
+The box for June once more confirms tha the data is skewed to the right.  However, the box for December seems to indicate that the data for that month is skewed to left.  This means that the month of June tends to be hotter than what the average temperature calculation suggests.  In the case of December,  there seems to be a slight prevalence of 'cold' days.
 
 ### Image 9: Box-and-Whisker Plot of the temperatures during June and December
 ![Image9](https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/boxplot.png)
