@@ -132,14 +132,19 @@ high_outliers_june = june_df[june_df['June Temps'] > Upper_Bound_June]
 After running the code, we obtain the following:
 
 `Total datapoints for June 1700`</br>
-`Count of Low Outliers in June = 268 or 268/1700 = 15.8% of the data`  Again, the skewness is identified</br>
+`Count of Low Outliers in June = 268 or 268/1700 = 15.8% of the data`  16% is a high value, so the right skewness is confirmed</br>
 `Count of High Outliers in June = 44 or 44/1700 = 2.6% of the data`
 
 `Total datapoints for December 1517`</br>
-`Count of Low Outliers in December = 15 or 15/1517 = 15.8% of the data`  Again, the skewness is identified</br>
-`Count of High Outliers in December = 2 or 2/1517 = 2.6% of the data`
+`Count of Low Outliers in December = 15 or 15/1517 = 0.98% of the data`</br>
+`Count of High Outliers in December = 2 or 2/1517 = 0.1% of the data`
 
+As we can see, even though the Boxplot for December seemed to suggest that there were a lot of outliers datapoints for that month, the count of such points reveal that it was not the case, and so the temperature readings in December are pretty consistent year after year.  As a contrats, the Boxplot for June shows few outliers, but once we count them we see that there are almost 20% of the points as outliers, and so it confirms the suspition that the month of June tends to be hotter than what the `.describe()` function suggest.
 
+## In conclusion:
+After carefully reviewing the data, we can be confident that summers in Oahu have a pleasant temperature and during winter the climate is a bit colder, but not enough to make going to the beach an unpleasant experience.
+
+**None of the above suggest that the tenperature differences between June and December will be a reason for tourists not coming to Oahu, so the Surf 'N Shake project has passed the initial evaluation.**
 
 ### Image 10: Box-and-Whisker Plot of the temperatures during June and December
 ![Image10](https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/boxplot.png)
