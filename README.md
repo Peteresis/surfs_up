@@ -47,7 +47,7 @@ Once the temperature information for the months of June and December was filtere
 
 
 ### Image 3: Statistical description of the DataFrame with the temperatures for the month of June
-![Image3](https://github.com/Peteresis/surfs_up/blob/ea18f34bd02efcaa024271d20cab76f4b535b44e/Images/june_describe_df.png)
+![Image3](https://github.com/Peteresis/surfs_up/blob/de270105093c5f8a8c2fb4b435956b02abf0a4af/Images/june_describe_df.png)
 
 
 ## :three: Summary
