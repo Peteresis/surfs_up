@@ -100,7 +100,8 @@ To be certain of the number of outlier points each month, we need to count how m
 A brief review of the values that make up a boxplot helps to better understand what we are trying to describe:
 
 ### Image 9: Different parts of a Boxplot
-![image](https://user-images.githubusercontent.com/98360572/163650058-f78ad8f8-88b5-4094-9f39-9a6fd137a8d6.png)
+<img src="https://user-images.githubusercontent.com/98360572/163650058-f78ad8f8-88b5-4094-9f39-9a6fd137a8d6.png" width=50% height=50%>
+
 
 Using the `.describe()` function for June and December we obtained the following data:</br>
 `Q1 for June = 75`</br>
