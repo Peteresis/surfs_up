@@ -52,18 +52,15 @@ The data for June has 1700 entries or lines.  The mean temperature for June in O
 ### Image 3: Statistical description of the DataFrame with the temperatures for the month of June
 <img src="https://user-images.githubusercontent.com/98360572/163655320-6a370305-8277-4faf-987f-e4d3b1469d7b.png">
 
-
 ## 💠 Deliverable #2 The statistical description for December is shown below.  
 
 Using the same procedure described above, the data for December has 1517 data points.  The mean temperature for December in Oahu is `71.04 F`.  The minimum temmperature registred durung the period is `56 F` and the maximum is `83 F`.  In this case the difference between the two extremes is 27.
 
 ### Image 4: Statistical description of the DataFrame with the temperatures for the month of December
-![Image4](https://github.com/Peteresis/surfs_up/blob/de270105093c5f8a8c2fb4b435956b02abf0a4af/Images/december_describe_df.png)
-
+<img src="https://user-images.githubusercontent.com/98360572/163655378-3d0270e4-820c-4857-b133-7be351e19509.png">
 
 ### Image 5: Comparison of the statistical description of the DataFrame with the temperatures for the months of June and December
-![Image5](https://github.com/Peteresis/surfs_up/blob/f6b18997809eb80eac2ff29adb11110833181cf2/Images/summary_describe_df.png)
-
+<img src="https://user-images.githubusercontent.com/98360572/163655439-262174e8-4925-4ca1-a735-041ac1b616ae.png">
 
 ## :three: Summary
 
@@ -74,7 +71,7 @@ At first sight, and based on the mean temperature data, it looks like the island
 Below is the histogram chart for the temperatures during the month of June.  It looks like the data is skewed to the right and for the most part the temperature during June oscillates between `71 F` and `79 F`.  From the graph, the frequency of days with extreme temperatures (either cold or hot) during June seems low, so June should not be a problem for the Surf 'n Shake business.
 
 ### Image 6: Histogram of the temperatures during June
-![Image6](https://github.com/Peteresis/surfs_up/blob/647c4d44e22fe35f2af82c42da98a43557f14428/Images/JuneTemps.png)
+<img src="https://user-images.githubusercontent.com/98360572/163655490-b6b5ac0a-1071-47e5-b1a8-e24362cc6732.png" width=50% height=50%>
 
 In the same manner, the December histogram is shown below. The graph shows that the temperature in December usually ranges between `66 F` and `76 F`, but there are many days in December when the temperature stays around `72 F`. Extreme temperature days are uncommon in December when compared to the central block of the graph. The data looks slightly skewed to the right, but not nearly as much as in the June graph.
 
