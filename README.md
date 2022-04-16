@@ -33,6 +33,7 @@ december_results = session.query(Measurement.date, Measurement.tobs).\
     filter(extract('month', Measurement.date)==12)
 print(december_results)
 ```
+<div style="background-color: #FFFF00">Note: Click or tap on any image to zoom</div>
 <mark style="background-color: #FFFF00">Note: Click or tap on any image to zoom</mark>
 ### Image 1: Screenshot of the `measurement` table without any filters
 ![Image1](https://github.com/Peteresis/surfs_up/blob/c32152ab66cde0777dfb59be65ecb207b0d494c4/Images/measurementtable.png)
