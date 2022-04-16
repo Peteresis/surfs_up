@@ -76,6 +76,7 @@ In the same manner, the December histogram is shown below. The graph shows that 
 
 ### Image 7: Histogram of the temperatures during December
 ![Image7](https://github.com/Peteresis/surfs_up/blob/647c4d44e22fe35f2af82c42da98a43557f14428/Images/DecemberTemps.png)
+![image](https://user-images.githubusercontent.com/98360572/163654345-7d89b8e1-d7b7-4c69-9874-6b566c2600e0.png)
 
 To conclude the section on histograms, we show the histograms for June and December superimposed below. This chart illustrates that the June data is significantly skewed to the right than the December data. Most of the temperatures recorded in those two months are between `66 F` and `77 F`, indicating that the temperature does not appear to be a barrier to tourists visiting Oahu.
 
