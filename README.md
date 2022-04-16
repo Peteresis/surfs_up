@@ -33,12 +33,15 @@ december_results = session.query(Measurement.date, Measurement.tobs).\
     filter(extract('month', Measurement.date)==12)
 print(december_results)
 ```
+```diff
++ Note: Click or Tap on any image to zoom
+```
 
 ### Image 1: Screenshot of the `measurement` table without any filters
-![Image1](https://github.com/Peteresis/surfs_up/blob/c32152ab66cde0777dfb59be65ecb207b0d494c4/Images/measurementtable.png)
+<img src="https://user-images.githubusercontent.com/98360572/163654906-7a23283c-03ca-420d-803f-0ee3b91a9f6d.png" width=50% height=50%>
 
 ### Image 2: Screenshot of the `station` table
-![Image2](https://github.com/Peteresis/surfs_up/blob/c32152ab66cde0777dfb59be65ecb207b0d494c4/Images/satationtable.png)
+<img src="https://user-images.githubusercontent.com/98360572/163654994-0304599a-b6f7-4f7d-aab5-1bfceda811aa.png" width=25% height=25%>
 
 Once the temperature information for the months of June and December was filtered, the Pandas function `describe()` was used to calculate the main statistical parameters of the June and December data.
 
@@ -47,7 +50,7 @@ Once the temperature information for the months of June and December was filtere
 The data for June has 1700 entries or lines.  The mean temperature for June in Oahu is `74.9 F`, but it can go as low as `64 F` and as high as `85 F`, so there is a 20 degree range variation in the historical data.
 
 ### Image 3: Statistical description of the DataFrame with the temperatures for the month of June
-![Image3](https://github.com/Peteresis/surfs_up/blob/de270105093c5f8a8c2fb4b435956b02abf0a4af/Images/june_describe_df.png)
+<img src="https://user-images.githubusercontent.com/98360572/163655116-89f11f13-e564-4fd3-8230-a97a3f9b1bef.png" width=50% height=50%>
 
 ## 💠 Deliverable #2 The statistical description for December is shown below.  
 
@@ -75,8 +78,7 @@ Below is the histogram chart for the temperatures during the month of June.  It 
 In the same manner, the December histogram is shown below. The graph shows that the temperature in December usually ranges between `66 F` and `76 F`, but there are many days in December when the temperature stays around `72 F`. Extreme temperature days are uncommon in December when compared to the central block of the graph. The data looks slightly skewed to the right, but not nearly as much as in the June graph.
 
 ### Image 7: Histogram of the temperatures during December
-![Image7](https://github.com/Peteresis/surfs_up/blob/647c4d44e22fe35f2af82c42da98a43557f14428/Images/DecemberTemps.png)
-
+<img src="https://user-images.githubusercontent.com/98360572/163654345-7d89b8e1-d7b7-4c69-9874-6b566c2600e0.png" width=50% height=50%>
 To conclude the section on histograms, we show the histograms for June and December superimposed below. This chart illustrates that the June data is significantly skewed to the right than the December data. Most of the temperatures recorded in those two months are between `66 F` and `77 F`, indicating that the temperature does not appear to be a barrier to tourists visiting Oahu.
 
 ### Image 8: Histogram of the temperatures during June and December superimposed
@@ -147,7 +149,7 @@ After carefully reviewing the data, we can confidently state that summers on Oah
 ## **<u>None of the above suggest that the temperature differences between June and December will be a reason for tourists not coming to Oahu, so the Surf 'N Shake project has passed the initial evaluation.</u>**
 
 ### Image 10: Box-and-Whisker Plot of the temperatures during June and December
-![Image10](https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/boxplot.png)
+<img src="https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/boxplot.png" width=50% height=50%>
 
 
 
