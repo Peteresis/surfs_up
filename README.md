@@ -50,7 +50,8 @@ Once the temperature information for the months of June and December was filtere
 The data for June has 1700 entries or lines.  The mean temperature for June in Oahu is `74.9 F`, but it can go as low as `64 F` and as high as `85 F`, so there is a 20 degree range variation in the historical data.
 
 ### Image 3: Statistical description of the DataFrame with the temperatures for the month of June
-<img src="https://user-images.githubusercontent.com/98360572/163655116-89f11f13-e564-4fd3-8230-a97a3f9b1bef.png" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/98360572/163655320-6a370305-8277-4faf-987f-e4d3b1469d7b.png">
+
 
 ## 💠 Deliverable #2 The statistical description for December is shown below.  
 
