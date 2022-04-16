@@ -77,12 +77,11 @@ In the same manner, the December histogram is shown below. The graph shows that 
 
 ### Image 7: Histogram of the temperatures during December
 <img src="https://user-images.githubusercontent.com/98360572/163654345-7d89b8e1-d7b7-4c69-9874-6b566c2600e0.png" width=50% height=50%>
+
 To conclude the section on histograms, we show the histograms for June and December superimposed below. This chart illustrates that the June data is significantly skewed to the right than the December data. Most of the temperatures recorded in those two months are between `66 F` and `77 F`, indicating that the temperature does not appear to be a barrier to tourists visiting Oahu.
 
 ### Image 8: Histogram of the temperatures during June and December superimposed
-![Image8](https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/JuneAndDecemberTemps.png)
-
-
+<img src="https://user-images.githubusercontent.com/98360572/163655518-3e0259e0-3f49-4c07-b4c2-8b04b473f0c3.png" width=50% height=50%>
 
 ### 2. A boxplot to check for possible outliers
 
@@ -147,7 +146,8 @@ After carefully reviewing the data, we can confidently state that summers on Oah
 ## **<u>None of the above suggest that the temperature differences between June and December will be a reason for tourists not coming to Oahu, so the Surf 'N Shake project has passed the initial evaluation.</u>**
 
 ### Image 10: Box-and-Whisker Plot of the temperatures during June and December
-<img src="https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/boxplot.png" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/98360572/163655576-034f4724-08f9-4b09-bb56-1532bbc05abc.png" width=50% height=50%>
+
 
 
 
