@@ -151,13 +151,7 @@ After carefully reviewing the data, we can confidently state that summers on Oah
 
 <img src="https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/boxplot.png" width=50% height=50%>
 
-<MagnifierContainer>
-  <div className="example-class">
-    <MagnifierPreview imageSrc="https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/boxplot.png" />
-  </div>
-    <MagnifierZoom style={{ height: "400px" }} imageSrc="https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/boxplot.png"/>
-</MagnifierContainer>
-
+[![](https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/boxplot.png)](https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/boxplot.png)
 
 ## References
 Module 9: Exploring Weather Data, https://courses.bootcampspot.com/courses/1145/pages/9-dot-0-1-exploring-weather-data, :copyright: 2020-2021 Trilogy Education Services, Web 15 Apr 2022.
