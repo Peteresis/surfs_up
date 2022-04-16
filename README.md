@@ -153,9 +153,9 @@ After carefully reviewing the data, we can confidently state that summers on Oah
 
 <MagnifierContainer>
   <div className="example-class">
-    <MagnifierPreview imageSrc="./Images/boxplot.png" />
+    <MagnifierPreview imageSrc="https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/boxplot.png" />
   </div>
-    <MagnifierZoom style={{ height: "400px" }} imageSrc="./Images/boxplot.png"/>
+    <MagnifierZoom style={{ height: "400px" }} imageSrc="https://github.com/Peteresis/surfs_up/blob/e450998192063dd2adbfba4ff0a6a4929dfa916b/Images/boxplot.png"/>
 </MagnifierContainer>
 
 
